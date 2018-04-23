@@ -1,0 +1,44 @@
+# maven ignore
+target/
+*.jar
+*.war
+*.zip
+*.tar
+*.tar.gz
+
+# eclipse ignore
+.metadata/
+.settings/
+.project
+.classpath
+.springBeans
+
+# idea ignore
+.idea/
+*.ipr
+*.iml
+*.iws
+
+# temp ignore
+logs/
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+*.swp
+*.log.*
+# system ignore
+.DS_Store
+Thumbs.db
+mahout-api-client/src/main/resources/
+mahout-api-client/src/test/
+mahout-api-common/src/main/resources/
+mahout-api-common/src/test/
+mahout-api/src/test/
+mahout-mq/src/main/resources/
+mahout-mq/src/test/
+mahout-offline/src/test/
+mahout-tools/src/main/resources/
+mahout-tools/src/test/
+work/
